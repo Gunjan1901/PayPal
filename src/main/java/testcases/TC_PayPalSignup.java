@@ -23,7 +23,7 @@ public class TC_PayPalSignup extends ProjectMethods {
 	@Test
 	public void signup()
 	{
-		
+		System.out.println("Signup started");
 		new PayPalSignupPage()
 		.clickSignup()
 		.clickNext()
@@ -34,6 +34,8 @@ public class TC_PayPalSignup extends ProjectMethods {
 		.enterpasswd()
 		.enterpasswd1()
 		.clickSubmit();
+		
+		
 	}
 }
 
