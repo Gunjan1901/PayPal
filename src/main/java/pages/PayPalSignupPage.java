@@ -19,7 +19,7 @@ public class PayPalSignupPage extends ProjectMethods {
 	public WebElement signup;
 	public PayPalLoginPage clickSignup()
 	{
-		//click(signup);
+		click(signup);
 		return new PayPalLoginPage();
 	}
 
